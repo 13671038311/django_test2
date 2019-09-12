@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+
+<body>
+{% include 'f1/head.html' %}
+
+渲染的页面出来
+{{ txt1 }}  <br>
+
+{{ num }}
+
+{%for key,value in dct%}
+    我是:{{ value }}<br>
+{% endfor %}
+
+</body>
+</html>
